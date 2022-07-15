@@ -1,0 +1,28 @@
+.header {
+  background-color: #f8e1db;
+  padding: 10px 30px;
+}
+.header img {
+  width: 70px;
+}
+.header .navbar {
+  margin-top: 20px;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 18px;
+  /* font-weight: 700; */
+}
+.header a:hover {
+  color: #e76f51;
+}
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 900px;
+  background-position: center center;
+  /* left top */
+  background-size: cover;
+  /* width: 100%; */
+}

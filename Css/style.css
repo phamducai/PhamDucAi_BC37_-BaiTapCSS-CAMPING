@@ -1,3 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #faf4f2;
+  /* background-color: blue; */
+}
+/* xoa loi do float */
+.clear {
+  clear: both;
+}
 .header {
   background-color: #f8e1db;
   padding: 10px 30px;
@@ -25,4 +38,161 @@
   /* left top */
   background-size: cover;
   /* width: 100%; */
+}
+/* activities
+dispaly:inline chi ap dung cho noi dung don gian chua 1 con hoac mot dong ngan */
+/* the cai sap xep goi ra */
+.activities {
+  text-align: center;
+}
+.col {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  /* border: 1px solid red; */
+}
+.thumbnail img {
+  width: 100%;
+  border-radius: 20px;
+}
+.col .item {
+  background-color: white;
+  /* background-color: #e76f51; */
+  padding: 20px;
+  border-radius: 30px;
+}
+.thumbnail {
+  /* position the cha gan nhat */
+  position: relative;
+}
+.heart {
+  width: 40px;
+  height: 40px;
+
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  line-height: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 10px;
+}
+.title {
+  margin: 50px 0;
+}
+.heart i {
+  color: red;
+  opacity: 0.92;
+}
+.item p {
+  margin: 15px;
+  opacity: 0.8;
+  line-height: 30px;
+}
+.viewAll button {
+  padding: 10px 60px;
+  border: 1px solid #e76f51;
+  background-color: transparent;
+  border-radius: 50px;
+  margin: 20px 0 80px;
+  /* hien dau ban tay */
+  cursor: pointer;
+  color: #e76f51;
+}
+.readmore {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #e8e8e8;
+  /* background-color: red; */
+  border-radius: 50px;
+  opacity: 0.8;
+  font-weight: 600;
+  margin: 20px;
+}
+
+/* contact */
+.contact {
+  background-color: #f8e1db;
+  /* background-color: blue; */
+}
+
+.contact .img {
+  float: left;
+  width: 50%;
+  padding: 0 60px;
+}
+.contact__main {
+  float: left;
+  width: 50%;
+  padding: 0 60px;
+}
+.img img {
+  width: 100%;
+}
+.contact__main h2 {
+  margin: 50px 0 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+.contact__main p {
+  opacity: 0.85;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.contact__social {
+  float: left;
+  width: 50%;
+}
+.contact__social h3 {
+  opacity: 0.85;
+  margin: 20px 0;
+}
+.contact__social img {
+  width: 100%;
+}
+.contact__social i {
+  color: red;
+  font-size: 27px;
+  opacity: 0.8;
+}
+.fa-youtube {
+  margin: 0 10px;
+}
+.fa-instagram {
+  margin-right: 10px;
+}
+/* footer */
+.footer {
+  background-color: #f8e1db;
+  border-radius: 80px 80px 0 0;
+  font-weight: 500;
+}
+.blank {
+  height: 90px;
+}
+.footer__copy p {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.footer__left {
+  float: left;
+  width: 40%;
+  padding-left: 40px;
+}
+.footer__right {
+  float: left;
+  width: 20%;
+}
+.footer__main {
+  padding: 70px 0 50px 0;
+}
+.footer__main h3 {
+  padding: 20px 0;
+}
+.footer__left p {
+  line-height: 25px;
+}
+.footer__right p {
+  margin: 10px;
 }
